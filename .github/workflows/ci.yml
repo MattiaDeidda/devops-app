@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE:${{ vars.DOCKERHUB_USERNAME }}/devops-app
+  IMAGE:${{ vars.DOCKERHUB_USERNAME }}/devops-app-s5
 
 jobs:
   build-test:
